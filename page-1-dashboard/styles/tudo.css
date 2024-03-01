@@ -11,11 +11,14 @@
   text-decoration: none;
 }
 
+.textos {
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
 
-
-
-
-
+.shadows {
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
 
 html {
 	font-size: 50%;
@@ -53,21 +56,22 @@ html {
   background-color: #ffffff;
   width: 51.3rem;
   height: 100%;
-  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   flex-shrink: 0;
+
+  margin-right: 1.4rem;
 
 }
 
 .titulo-painel {
+  margin-top: 10px;
+  margin-left: 10px;
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.15;
   color: #000000;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
 }
 
-.painel-grupo-1 {
+.painel-grupo {
   margin-bottom: 1.1rem;
   width: 100%;
   height: 23.2rem;
@@ -76,17 +80,8 @@ html {
   flex-shrink: 0;
 }
 
-.painel-1 {
-  margin-right: 1.4rem;
-  padding: 1.1rem 2.6rem 3.25rem 2.6rem;
-}
-
-.titulo-painel-1 {
-  margin-bottom: 3rem;
-}
-
 .graficos {
-  margin: 0rem 4.9rem 0rem 4.4rem;
+  margin: 3rem 5rem 1rem 7rem;
   width: calc(100% - 9.3rem);
   height: 13.95rem;
   display: flex;
@@ -94,194 +89,78 @@ html {
   align-items: center;
 }
 
-.grafico-1 {
+.grafico {
   width: 11.6rem;
   height: 100%;
   align-items: center;
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
+}
+
+.titulo-grafico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  flex-shrink: 0;
+}
+
+.porcentagem-grafico {
+  margin-bottom: 0.65rem;
+  width: 100%;
+  height: 11.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  background-color: #0759ab;
+  border-radius: 5.8rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   flex-shrink: 0;
 }
 
 .porcentagem-grafico-1 {
-  margin-bottom: 0.65rem;
-  width: 100%;
-  height: 11.6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1.15;
-  color: #ffffff;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
-  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-  background-color: #0759ab;
-  border-radius: 5.8rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   background-image: url('../assets/grfico-1-atingido.png');
-  flex-shrink: 0;
-}
-
-.titulo-grafico-1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.15;
-  color: #000000;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.grafico-2 {
-  width: 11.6rem;
-  height: 100%;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
 }
 
 .porcentagem-grafico-2 {
-  margin-bottom: 0.65rem;
-  width: 100%;
-  height: 11.6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1.15;
-  color: #ffffff;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
-  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-  background-color: #0759ab;
-  border-radius: 5.8rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   background-image: url('../assets/grfico-2-atingido.png');
-  flex-shrink: 0;
-}
-
-.titulo-grafico-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.15;
-  color: #000000;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.grafico-3 {
-  width: 11.6rem;
-  height: 100%;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
 }
 
 .porcentagem-grafico-3 {
-  margin-bottom: 0.65rem;
-  width: 100%;
-  height: 11.6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1.15;
-  color: #ffffff;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
-  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-  background-color: #0759ab;
-  border-radius: 5.8rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   background-image: url('../assets/grfico-3-atingido.png');
-  flex-shrink: 0;
-}
-
-.titulo-grafico-3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.15;
-  color: #000000;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.painel-2 {
-  padding: 1.1rem 2rem;
-  
-}
-
-.painel-grupo-2 {
-  width: 100%;
-  height: 23.2rem;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.painel-3 {
-  margin-right: 1.4rem;
-  padding: 0.7rem 0.9rem 2.55rem 2.6rem;
-}
-
-.grupo-botao-ver-mais {
-  margin-bottom: 3.35rem;
-  width: 100%;
-  height: 2.7rem;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.titulo-painel-3 {
-  margin-right: 33.3rem;
-
 }
 
 .botao-ver-mais {
+  margin-left: 41rem;
+  margin-top: -2rem;
   width: 9.3rem;
-  height: 100%;
   display: flex;
+
   align-items: center;
   justify-content: center;
   font-size: 1.6rem;
   font-weight: 700;
-  line-height: 1.15;
   color: #feef01;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
+
   background-color: #0759ab;
   border-radius: 1.5rem;
-  flex-shrink: 0;
+  height: 2.7rem;
 }
 
 .anuncios {
-  margin-right: 2.2rem;
+  margin-left: 2.2rem;
+  margin-top: 2.2rem;
   width: 45.6rem;
-  flex-shrink: 0;
 }
 
 .texto-anuncio {
@@ -289,9 +168,6 @@ html {
   font-weight: 400;
   line-height: 1.15;
   color: #403c56;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
-
 }
 
 .linha-anuncio {
@@ -299,12 +175,6 @@ html {
   height: 0.2rem;
   background-color: #f5f5f5;
   margin-bottom: 0.55rem;
-
-}
-
-.painel-4 {
-  padding: 1.1rem 2rem;
-  
 }
 
 .indicadores {
@@ -324,8 +194,6 @@ html {
   align-items: center;
   background-color: #ffffff;
   border-radius: 1rem;
-  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-  flex-shrink: 0;
 }
 
 .lado-indicador {
@@ -338,41 +206,10 @@ html {
 }
 
 .linha-indicador {
+  margin: 0.05rem 2.2rem 0rem 0rem;
   width: 0.3rem;
   height: 3.1rem;
   background-color: #e4e4e4;
-  flex-shrink: 0;
-
-}
-
-.icone-sino {
-  margin-top: 0.2083rem;
-  width: 3.75rem;
-  height: 4.375rem;
-  object-fit: contain;
-  vertical-align: top;
-  flex-shrink: 0;
-}
-
-.grupo-indicador-1 {
-  box-sizing: border-box;
-  padding: 2.15rem 3rem 1.9rem 2.725rem;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.linha-indicador-1 {
-  margin: 0.05rem 2.2rem 0rem 0rem;
-  
-}
-
-.auto-group-geqn-YYW {
-  height: 100%;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
   flex-shrink: 0;
 }
 
@@ -385,8 +222,6 @@ html {
   font-weight: 700;
   line-height: 1.15;
   color: #006ed5;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
   flex-shrink: 0;
 }
 
@@ -399,39 +234,25 @@ html {
   font-weight: 700;
   line-height: 1.15;
   color: #000000;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
   flex-shrink: 0;
 }
 
-.icone-despachadas {
-  margin-top: 0.2603rem;
-  width: 4.2187rem;
-  height: 4.427rem;
-  object-fit: contain;
-  vertical-align: top;
-  flex-shrink: 0;
-}
-
-.auto-group-b4xp-hCS {
-  box-sizing: border-box;
-  padding: 2.15rem 2.15rem 1.9rem 2.056rem;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.linha-indicador-2 {
-  margin: 0.05rem 1.35rem 0rem 0rem;
-}
-
-.auto-group-9bee-xeA {
+.auto-group {
   height: 100%;
   align-items: center;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+}
+
+.auto-group-2 {
+  box-sizing: border-box;
+  padding: 2.15rem 2.4rem 1.9rem 2.056rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  
 }
 
 .simbolo-indicador-3 {
@@ -443,54 +264,11 @@ html {
   flex-shrink: 0;
 }
 
-.auto-group-npqw-h7t {
-  box-sizing: border-box;
-  padding: 2.15rem 2.95rem 1.9rem 1.3rem;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.linha-indicador-3 {
-  margin: 0.05rem 1.65rem 0rem 0rem;
-}
-
-.auto-group-n5xi-xZc {
-  height: 100%;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-}
-
-.icone-canceladas {
+.icone-indicador {
   width: 4.1667rem;
   height: 4.1667rem;
   object-fit: contain;
   vertical-align: top;
-  flex-shrink: 0;
-}
-
-.auto-group-7o1y-wpr {
-  box-sizing: border-box;
-  padding: 2.15rem 3.4rem 1.9rem 1.917rem;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.linha-indicador-4 {
-  margin: 0.05rem 2.1rem 0rem 0rem;
-}
-
-.auto-group-tttu-1Jv {
-  height: 100%;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
 }
 
 .barra-de-titulo {
@@ -513,8 +291,6 @@ html {
   font-weight: 700;
   line-height: 1.15;
   color: #000000;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
   flex-shrink: 0;
 }
 
@@ -526,8 +302,6 @@ html {
   font-weight: 700;
   line-height: 1.15;
   color: #000000;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
   flex-shrink: 0;
 }
 
@@ -536,12 +310,9 @@ html {
   height: 2.3rem;
   position: relative;
   object-fit: contain;
-  vertical-align: top;
-  flex-shrink: 0;
 }
 
 .menu-principal {
-  width: 11.3rem;
   height: 64.2rem;
   position: absolute;
   left: 5.7rem;
@@ -549,18 +320,10 @@ html {
 }
 
 .icones {
-  width: 11.3rem;
   height: 64.2rem;
-  position: absolute;
-  left: 0;
-  top: 0;
-  object-fit: contain;
-  vertical-align: top;
 }
 
 .opcoes {
-  width: 7.9rem;
-  height: 31.8rem;
   position: absolute;
   left: 2.5rem;
   top: 10.65rem;
@@ -571,8 +334,6 @@ html {
   font-weight: 700;
   line-height: 1.15;
   color: #d8ebf1;
-  font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
   display: flex;
   margin-bottom: 3.3rem;
 }
