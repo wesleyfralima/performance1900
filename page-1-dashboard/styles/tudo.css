@@ -1,0 +1,831 @@
+.clean-link {
+  text-decoration: none;
+}
+
+.clean-link:hover {
+  color: white;
+}
+
+
+
+
+
+
+
+html {
+	font-size: 50%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+
+input {
+	border: none;
+}
+
+body {
+  width: 128rem;
+}
+
+.tudo-P5Q {
+  width: 100%;
+  height: 72rem;
+  position: relative;
+}
+
+.fundos-bhG {
+  width: 128rem;
+  height: 72rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+.painis-KNN {
+  width: 104rem;
+  height: 47.5rem;
+  position: absolute;
+  left: 19.8rem;
+  top: 18.9rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.auto-group-8per-bUJ {
+  margin-bottom: 1.1rem;
+  width: 100%;
+  height: 23.2rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.painel-1-7hY {
+  margin-right: 1.4rem;
+  box-sizing: border-box;
+  padding: 1.1rem 2.6rem 3.25rem 2.6rem;
+  width: 51.3rem;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+
+.ttulo-painel-1-2Ji {
+  margin-bottom: 3rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.tudo-P5Q .painis-KNN .auto-group-8per-bUJ .painel-1-7hY .grficos-WDt {
+  margin: 0rem 4.9rem 0rem 4.4rem;
+  width: calc(100% - 9.3rem);
+  height: 13.95rem;
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+.tudo-P5Q .painis-KNN .auto-group-8per-bUJ .painel-1-7hY .grficos-WDt .grfico-1-CMc {
+  width: 11.6rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-8per-bUJ .painel-1-7hY .grficos-WDt .grfico-1-CMc .auto-group-tnqt-hBt {
+  margin-bottom: 0.65rem;
+  width: 100%;
+  height: 11.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #0759ab;
+  border-radius: 5.8rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/grfico-1-atingido.png');
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-8per-bUJ .painel-1-7hY .grficos-WDt .grfico-1-CMc .ttulo-grfico-1-ryt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-8per-bUJ .painel-1-7hY .grficos-WDt .grfico-2-NhL {
+  width: 11.6rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-8per-bUJ .painel-1-7hY .grficos-WDt .grfico-2-NhL .auto-group-s54j-WHk {
+  margin-bottom: 0.65rem;
+  width: 100%;
+  height: 11.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #0759ab;
+  border-radius: 5.8rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/grfico-2-atingido.png');
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-8per-bUJ .painel-1-7hY .grficos-WDt .grfico-2-NhL .ttulo-grfico-2-Z18 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-8per-bUJ .painel-1-7hY .grficos-WDt .grfico-3-GgE {
+  width: 11.6rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-8per-bUJ .painel-1-7hY .grficos-WDt .grfico-3-GgE .auto-group-qndc-phk {
+  margin-bottom: 0.65rem;
+  width: 100%;
+  height: 11.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #0759ab;
+  border-radius: 5.8rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/grfico-3-atingido.png');
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-8per-bUJ .painel-1-7hY .grficos-WDt .grfico-3-GgE .ttulo-grfico-3-sg2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-8per-bUJ .painel-2-A9L {
+  box-sizing: border-box;
+  padding: 1.1rem 2rem;
+  width: 51.3rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L {
+  width: 100%;
+  height: 23.2rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C {
+  margin-right: 1.4rem;
+  box-sizing: border-box;
+  padding: 0.7rem 0.9rem 2.55rem 2.6rem;
+  width: 51.3rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C .auto-group-qpg6-3cS {
+  margin-bottom: 3.35rem;
+  width: 100%;
+  height: 2.7rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C .auto-group-qpg6-3cS .ttulo-painel-3-PAW {
+  margin-right: 33.3rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C .auto-group-qpg6-3cS .boto-ver-mais-hgz {
+  width: 9.3rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #feef01;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #0759ab;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C .anncios-BMG {
+  margin-right: 2.2rem;
+  width: 45.6rem;
+  flex-shrink: 0;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C .anncios-BMG .texto-anncio-1-haW {
+  margin-bottom: 0.55rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #403c56;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C .anncios-BMG .line-1-38a {
+  margin-bottom: 0.35rem;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #f5f5f5;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C .anncios-BMG .texto-anncio-2-PCS {
+  margin-bottom: 0.55rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #403c56;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C .anncios-BMG .line-2-hyp {
+  margin-bottom: 0.35rem;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #f5f5f5;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C .anncios-BMG .texto-anncio-3-G1L {
+  margin-bottom: 0.55rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #403c56;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C .anncios-BMG .line-3-Q7Y {
+  margin-bottom: 0.35rem;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #f5f5f5;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C .anncios-BMG .texto-anncio-4-kx6 {
+  margin-bottom: 0.55rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #403c56;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C .anncios-BMG .line-4-6m4 {
+  margin-bottom: 0.35rem;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #f5f5f5;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-3-x5C .anncios-BMG .texto-anncio-5-ena {
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #403c56;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.tudo-P5Q .painis-KNN .auto-group-pvkp-c1L .painel-4-8Sr {
+  box-sizing: border-box;
+  padding: 1.1rem 2rem;
+  width: 51.3rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY {
+  width: 104rem;
+  height: 8.4rem;
+  position: absolute;
+  left: 19.8rem;
+  top: 8.7rem;
+  display: flex;
+  align-items: center;
+}
+.tudo-P5Q .indicadores-APY .indicador-1-VRp {
+  margin-right: 3.9rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-1-VRp .lado-indicador-1-2wY {
+  margin-right: 2.625rem;
+  width: 0.9rem;
+  height: 8.4rem;
+  background-color: #feef01;
+  border-radius: 1rem 0 0 1rem;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-1-VRp .bell-xaJ {
+  margin-top: 0.2083rem;
+  width: 3.75rem;
+  height: 4.375rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-1-VRp .auto-group-x9ne-6Ai {
+  box-sizing: border-box;
+  padding: 2.15rem 3rem 1.9rem 2.725rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-1-VRp .auto-group-x9ne-6Ai .linha-indicador-1-pcW {
+  margin: 0.05rem 2.2rem 0rem 0rem;
+  width: 0.3rem;
+  height: 3.1rem;
+  background-color: #e4e4e4;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-1-VRp .auto-group-x9ne-6Ai .auto-group-geqn-YYW {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-1-VRp .auto-group-x9ne-6Ai .auto-group-geqn-YYW .ttulo-indicador-1-WES {
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #006ed5;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-1-VRp .auto-group-x9ne-6Ai .auto-group-geqn-YYW .nmero-indicador-1-DPk {
+  margin-right: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-2-6TY {
+  margin-right: 3.8rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-2-6TY .lado-indicador-2-SXQ {
+  margin-right: 2.425rem;
+  width: 0.9rem;
+  height: 8.4rem;
+  background-color: #feef01;
+  border-radius: 1rem 0 0 1rem;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-2-6TY .contract-mJn {
+  margin-top: 0.2603rem;
+  width: 4.2187rem;
+  height: 4.427rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-2-6TY .auto-group-b4xp-hCS {
+  box-sizing: border-box;
+  padding: 2.15rem 2.15rem 1.9rem 2.056rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-2-6TY .auto-group-b4xp-hCS .linha-indicador-2-ECN {
+  margin: 0.05rem 1.35rem 0rem 0rem;
+  width: 0.3rem;
+  height: 3.1rem;
+  background-color: #e4e4e4;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-2-6TY .auto-group-b4xp-hCS .auto-group-9bee-xeA {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-2-6TY .auto-group-b4xp-hCS .auto-group-9bee-xeA .ttulo-indicador-2-XBU {
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #006ed5;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-2-6TY .auto-group-b4xp-hCS .auto-group-9bee-xeA .nmero-indicador-2-qxr {
+  margin-right: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-3-vjQ {
+  margin-right: 3.9rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-3-vjQ .lado-indicador-3-5cJ {
+  margin-right: 1.6rem;
+  width: 0.9rem;
+  height: 8.4rem;
+  background-color: #feef01;
+  border-radius: 1rem 0 0 1rem;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-3-vjQ .smbolo-indicador-3-Mpi {
+  margin-top: 0.1rem;
+  width: 5.5rem;
+  height: 5.3rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-3-vjQ .auto-group-npqw-h7t {
+  box-sizing: border-box;
+  padding: 2.15rem 2.95rem 1.9rem 1.3rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-3-vjQ .auto-group-npqw-h7t .linha-indicador-3-pyC {
+  margin: 0.05rem 1.65rem 0rem 0rem;
+  width: 0.3rem;
+  height: 3.1rem;
+  background-color: #e4e4e4;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-3-vjQ .auto-group-npqw-h7t .auto-group-n5xi-xZc {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-3-vjQ .auto-group-npqw-h7t .auto-group-n5xi-xZc .ttulo-indicador-3-X6v {
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #006ed5;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-3-vjQ .auto-group-npqw-h7t .auto-group-n5xi-xZc .nmero-indicador-3-3LA {
+  margin-left: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-4-WzS {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-4-WzS .lado-indicador-4-Gyc {
+  margin-right: 1.9167rem;
+  width: 0.9rem;
+  height: 8.4rem;
+  background-color: #feef01;
+  border-radius: 1rem 0 0 1rem;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-4-WzS .cancel-c1t {
+  width: 4.1667rem;
+  height: 4.1667rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-4-WzS .auto-group-7o1y-wpr {
+  box-sizing: border-box;
+  padding: 2.15rem 3.4rem 1.9rem 1.917rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-4-WzS .auto-group-7o1y-wpr .linha-indicador-4-gGe {
+  margin: 0.05rem 2.1rem 0rem 0rem;
+  width: 0.3rem;
+  height: 3.1rem;
+  background-color: #e4e4e4;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-4-WzS .auto-group-7o1y-wpr .auto-group-tttu-1Jv {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-4-WzS .auto-group-7o1y-wpr .auto-group-tttu-1Jv .ttulo-indicador-4-m3C {
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #006ed5;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .indicadores-APY .indicador-4-WzS .auto-group-7o1y-wpr .auto-group-tttu-1Jv .nmero-indicador-4-t7p {
+  margin-left: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .barra-de-ttulo-N2z {
+  box-sizing: border-box;
+  padding: 0.856rem 1.744rem 0.744rem 0rem;
+  width: 103.8rem;
+  height: 3.9rem;
+  position: absolute;
+  left: 19.8rem;
+  top: 3rem;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+.tudo-P5Q .barra-de-ttulo-N2z .ttulo-TKL {
+  margin: 0rem 72.1rem 0.113rem 0rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .barra-de-ttulo-N2z .semestre-filtrado-y2n {
+  margin: 0rem 0.956rem 0.113rem 0rem;
+  text-align: right;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tudo-P5Q .barra-de-ttulo-N2z .cone-UVL {
+  width: 2.3rem;
+  height: 2.3rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.tudo-P5Q .menu-principal-CgE {
+  width: 11.3rem;
+  height: 64.2rem;
+  position: absolute;
+  left: 5.7rem;
+  top: 5rem;
+}
+.tudo-P5Q .menu-principal-CgE .cones-8Zt {
+  width: 11.3rem;
+  height: 64.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+.tudo-P5Q .menu-principal-CgE .opes-5k2 {
+  width: 7.9rem;
+  height: 31.8rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 10.65rem;
+}
+.tudo-P5Q .menu-principal-CgE .opes-5k2 .opo-1-selecionada-cEA {
+  margin-bottom: 3.3rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #0759ab;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.tudo-P5Q .menu-principal-CgE .opes-5k2 .opo-2-Xc2 {
+  margin-bottom: 3.4rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #d8ebf1;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.tudo-P5Q .menu-principal-CgE .opes-5k2 .opo-3-4bx {
+  margin-bottom: 3.3rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #d8ebf1;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.tudo-P5Q .menu-principal-CgE .opes-5k2 .opo-4-brn {
+  margin-bottom: 3.1rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #d8ebf1;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.tudo-P5Q .menu-principal-CgE .opes-5k2 .opo-5-wfk {
+  margin-bottom: 3.3rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #d8ebf1;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.tudo-P5Q .menu-principal-CgE .opes-5k2 .opo-6-Hjc {
+  margin-bottom: 3.5rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #d8ebf1;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.tudo-P5Q .menu-principal-CgE .opes-5k2 .opo-7-ScW {
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #d8ebf1;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}

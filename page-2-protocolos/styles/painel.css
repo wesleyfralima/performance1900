@@ -1,0 +1,282 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 103.8rem;
+}.painel-chC {
+  box-sizing: border-box;
+  padding: 1.2rem 1.9rem 29.247rem 1.9rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+}
+.painel-chC .ttulo-painel-1-jmp {
+  margin: 0rem 0rem 1.8rem 0.7rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.painel-chC .filtros-2W2 {
+  margin-bottom: 2.9rem;
+  box-sizing: border-box;
+  padding: 0.6rem 1.35rem 0.7rem 1.4rem;
+  width: 100%;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 0.1rem rgba(25, 25, 28, 0.25), 0 0.1rem 0.1rem rgba(21, 21, 24, 0.1800000072);
+  background-color: #b0c4ca;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.painel-chC .filtros-2W2 .filtro-1-vLW {
+  margin-right: 0.8rem;
+  width: 9rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #006ed5;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.painel-chC .filtros-2W2 .filtro-2-selecionado-vjp {
+  margin-right: 0.7rem;
+  width: 9rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25)), inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+  background-color: #feef01;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.painel-chC .filtros-2W2 .filtro-3-selecionado-a3g {
+  margin-right: 0.9rem;
+  box-sizing: border-box;
+  padding: 0.1rem 1.15rem;
+  width: 9rem;
+  height: 100%;
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25)), inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+  background-color: #feef01;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.painel-chC .filtros-2W2 .filtro-3-selecionado-a3g .filtro-3-texto-WCE {
+  max-width: 6.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+}
+.painel-chC .filtros-2W2 .filtro-4-xa2 {
+  margin-right: 0.8rem;
+  box-sizing: border-box;
+  padding: 0.1rem 0.15rem;
+  width: 9rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #006ed5;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.painel-chC .filtros-2W2 .filtro-4-xa2 .filtro-4-texto-gkv {
+  max-width: 8.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: Arimo, 'Source Sans Pro';
+}
+.painel-chC .filtros-2W2 .filtro-5-YYE {
+  margin-right: 0.75rem;
+  width: 9rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #006ed5;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.painel-chC .filtros-2W2 .filtro-6-mQz {
+  margin-right: 0.75rem;
+  width: 9.1rem;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.painel-chC .filtros-2W2 .filtro-6-mQz .filtro-6-fundo-X9G {
+  width: 9rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 0.05rem;
+  top: 0;
+  box-shadow: 0 0 0.1rem rgba(25, 25, 28, 0.25), 0 0.1rem 0.1rem rgba(21, 21, 24, 0.1800000072);
+  background-color: #006ed5;
+  border-radius: 1.5rem;
+}
+.painel-chC .filtros-2W2 .filtro-6-mQz .filtro-6-texto-1aE {
+  width: 9.1rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 0;
+  top: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.painel-chC .filtros-2W2 .filtro-7-HGr {
+  margin-right: 0.8rem;
+  width: 9rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #006ed5;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.painel-chC .filtros-2W2 .filtro-8-LF8 {
+  margin-right: 0.8rem;
+  box-sizing: border-box;
+  padding: 0.1rem 0.2rem;
+  width: 9rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #006ed5;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.painel-chC .filtros-2W2 .filtro-8-LF8 .filtro-8-texto-g46 {
+  max-width: 8.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: Arimo, 'Source Sans Pro';
+}
+.painel-chC .filtros-2W2 .filtro-9-vz2 {
+  margin-right: 0.75rem;
+  width: 9rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #006ed5;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.painel-chC .filtros-2W2 .filtro-10-P6v {
+  width: 9.1rem;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.painel-chC .filtros-2W2 .filtro-10-P6v .filtro-2-fundo-jga {
+  width: 9rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 0.05rem;
+  top: 0;
+  box-shadow: 0 0 0.1rem rgba(25, 25, 28, 0.25), 0 0.1rem 0.1rem rgba(21, 21, 24, 0.1800000072);
+  background-color: #006ed5;
+  border-radius: 1.5rem;
+}
+.painel-chC .filtros-2W2 .filtro-10-P6v .filtro-2-texto-3SN {
+  width: 9.1rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 0;
+  top: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.painel-chC .image-1-4sG {
+  width: 100rem;
+  height: 15.853rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
