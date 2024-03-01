@@ -4,6 +4,11 @@
 
 .clean-link:hover {
   color: white;
+  font-weight: bolder;
+}
+
+.clean-link-selecionado {
+  text-decoration: none;
 }
 
 
@@ -33,13 +38,13 @@ body {
   width: 128rem;
 }
 
-.tudo-P5Q {
+.main-div {
   width: 100%;
   height: 72rem;
   position: relative;
 }
 
-.fundos-bhG {
+.fundos {
   width: 128rem;
   height: 72rem;
   position: absolute;
@@ -48,7 +53,7 @@ body {
   object-fit: contain;
   vertical-align: top;
 }
-.painis-KNN {
+.paineis {
   width: 104rem;
   height: 47.5rem;
   position: absolute;
@@ -58,7 +63,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.auto-group-8per-bUJ {
+.painel-grupo-1 {
   margin-bottom: 1.1rem;
   width: 100%;
   height: 23.2rem;
@@ -67,7 +72,7 @@ body {
   flex-shrink: 0;
 }
 
-.painel-1-7hY {
+.painel-1 {
   margin-right: 1.4rem;
   box-sizing: border-box;
   padding: 1.1rem 2.6rem 3.25rem 2.6rem;
@@ -79,7 +84,7 @@ body {
   flex-shrink: 0;
 }
 
-.titulo-painel-1-2Ji {
+.titulo-painel-1 {
   margin-bottom: 3rem;
   display: flex;
   font-size: 1.6rem;
@@ -90,7 +95,7 @@ body {
   white-space: nowrap;
 }
 
-.grficos-WDt {
+.graficos {
   margin: 0rem 4.9rem 0rem 4.4rem;
   width: calc(100% - 9.3rem);
   height: 13.95rem;
@@ -99,7 +104,7 @@ body {
   align-items: center;
 }
 
-.grfico-1-CMc {
+.grafico-1 {
   width: 11.6rem;
   height: 100%;
   align-items: center;
@@ -108,7 +113,7 @@ body {
   flex-shrink: 0;
 }
 
-.auto-group-tnqt-hBt {
+.porcentagem-grafico-1 {
   margin-bottom: 0.65rem;
   width: 100%;
   height: 11.6rem;
@@ -131,7 +136,7 @@ body {
   flex-shrink: 0;
 }
 
-.titulo-grfico-1-ryt {
+.titulo-grafico-1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,7 +149,7 @@ body {
   flex-shrink: 0;
 }
 
-.grfico-2-NhL {
+.grafico-2 {
   width: 11.6rem;
   height: 100%;
   align-items: center;
@@ -153,7 +158,7 @@ body {
   flex-shrink: 0;
 }
 
-.auto-group-s54j-WHk {
+.porcentagem-grafico-2 {
   margin-bottom: 0.65rem;
   width: 100%;
   height: 11.6rem;
@@ -176,7 +181,7 @@ body {
   flex-shrink: 0;
 }
 
-.titulo-grfico-2-Z18 {
+.titulo-grafico-2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -189,7 +194,7 @@ body {
   flex-shrink: 0;
 }
 
-.grfico-3-GgE {
+.grafico-3 {
   width: 11.6rem;
   height: 100%;
   align-items: center;
@@ -198,7 +203,7 @@ body {
   flex-shrink: 0;
 }
 
-.auto-group-qndc-phk {
+.porcentagem-grafico-3 {
   margin-bottom: 0.65rem;
   width: 100%;
   height: 11.6rem;
@@ -221,7 +226,7 @@ body {
   flex-shrink: 0;
 }
 
-.titulo-grfico-3-sg2 {
+.titulo-grafico-3 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -234,7 +239,7 @@ body {
   flex-shrink: 0;
 }
 
-.painel-2-A9L {
+.painel-2 {
   box-sizing: border-box;
   padding: 1.1rem 2rem;
   width: 51.3rem;
@@ -252,7 +257,7 @@ body {
   flex-shrink: 0;
 }
 
-.auto-group-pvkp-c1L {
+.painel-grupo-2 {
   width: 100%;
   height: 23.2rem;
   display: flex;
@@ -260,7 +265,7 @@ body {
   flex-shrink: 0;
 }
 
-.painel-3-x5C {
+.painel-3 {
   margin-right: 1.4rem;
   box-sizing: border-box;
   padding: 0.7rem 0.9rem 2.55rem 2.6rem;
@@ -275,7 +280,7 @@ body {
   flex-shrink: 0;
 }
 
-.auto-group-qpg6-3cS {
+.grupo-botao-ver-mais {
   margin-bottom: 3.35rem;
   width: 100%;
   height: 2.7rem;
@@ -284,7 +289,7 @@ body {
   flex-shrink: 0;
 }
 
-.titulo-painel-3-PAW {
+.titulo-painel-3 {
   margin-right: 33.3rem;
   display: flex;
   font-size: 1.6rem;
@@ -296,7 +301,7 @@ body {
   flex-shrink: 0;
 }
 
-.boto-ver-mais-hgz {
+.botao-ver-mais {
   width: 9.3rem;
   height: 100%;
   display: flex;
@@ -313,13 +318,13 @@ body {
   flex-shrink: 0;
 }
 
-.anncios-BMG {
+.anuncios {
   margin-right: 2.2rem;
   width: 45.6rem;
   flex-shrink: 0;
 }
 
-.texto-anncio-1-haW {
+.texto-anuncio-1 {
   margin-bottom: 0.55rem;
   display: flex;
   font-size: 1.6rem;
@@ -330,14 +335,14 @@ body {
   white-space: nowrap;
 }
 
-.line-1-38a {
+.linha-anuncio-1 {
   margin-bottom: 0.35rem;
   width: 100%;
   height: 0.2rem;
   background-color: #f5f5f5;
 }
 
-.texto-anncio-2-PCS {
+.texto-anuncio-2 {
   margin-bottom: 0.55rem;
   display: flex;
   font-size: 1.6rem;
@@ -348,14 +353,14 @@ body {
   white-space: nowrap;
 }
 
-.line-2-hyp {
+.linha-anuncio-2 {
   margin-bottom: 0.35rem;
   width: 100%;
   height: 0.2rem;
   background-color: #f5f5f5;
 }
 
-.texto-anncio-3-G1L {
+.texto-anuncio-3 {
   margin-bottom: 0.55rem;
   display: flex;
   font-size: 1.6rem;
@@ -366,14 +371,14 @@ body {
   white-space: nowrap;
 }
 
-.line-3-Q7Y {
+.linha-anuncio-3 {
   margin-bottom: 0.35rem;
   width: 100%;
   height: 0.2rem;
   background-color: #f5f5f5;
 }
 
-.texto-anncio-4-kx6 {
+.texto-anuncio-4 {
   margin-bottom: 0.55rem;
   display: flex;
   font-size: 1.6rem;
@@ -384,14 +389,14 @@ body {
   white-space: nowrap;
 }
 
-.line-4-6m4 {
+.linha-anuncio-4 {
   margin-bottom: 0.35rem;
   width: 100%;
   height: 0.2rem;
   background-color: #f5f5f5;
 }
 
-.texto-anncio-5-ena {
+.texto-anuncio-5 {
   display: flex;
   font-size: 1.6rem;
   font-weight: 400;
@@ -401,7 +406,7 @@ body {
   white-space: nowrap;
 }
 
-.painel-4-8Sr {
+.painel-4 {
   box-sizing: border-box;
   padding: 1.1rem 2rem;
   width: 51.3rem;
@@ -419,7 +424,7 @@ body {
   flex-shrink: 0;
 }
 
-.indicadores-APY {
+.indicadores {
   width: 104rem;
   height: 8.4rem;
   position: absolute;
@@ -429,7 +434,7 @@ body {
   align-items: center;
 }
 
-.indicador-1-VRp {
+.indicador-1 {
   margin-right: 3.9rem;
   height: 100%;
   display: flex;
@@ -440,7 +445,7 @@ body {
   flex-shrink: 0;
 }
 
-.lado-indicador-1-2wY {
+.lado-indicador-1 {
   margin-right: 2.625rem;
   width: 0.9rem;
   height: 8.4rem;
@@ -448,7 +453,7 @@ body {
   border-radius: 1rem 0 0 1rem;
   flex-shrink: 0;
 }
-.bell-xaJ {
+.icone-sino {
   margin-top: 0.2083rem;
   width: 3.75rem;
   height: 4.375rem;
@@ -457,7 +462,7 @@ body {
   flex-shrink: 0;
 }
 
-.auto-group-x9ne-6Ai {
+.grupo-indicador-1 {
   box-sizing: border-box;
   padding: 2.15rem 3rem 1.9rem 2.725rem;
   height: 100%;
@@ -466,7 +471,7 @@ body {
   flex-shrink: 0;
 }
 
-.linha-indicador-1-pcW {
+.linha-indicador-1 {
   margin: 0.05rem 2.2rem 0rem 0rem;
   width: 0.3rem;
   height: 3.1rem;
@@ -482,7 +487,7 @@ body {
   flex-shrink: 0;
 }
 
-.titulo-indicador-1-WES {
+.titulo-indicador-1 {
   margin-bottom: 0.25rem;
   display: flex;
   align-items: center;
@@ -496,7 +501,7 @@ body {
   flex-shrink: 0;
 }
 
-.nmero-indicador-1-DPk {
+.numero-indicador-1 {
   margin-right: 0.1rem;
   display: flex;
   align-items: center;
@@ -510,7 +515,7 @@ body {
   flex-shrink: 0;
 }
 
-.indicador-2-6TY {
+.indicador-2 {
   margin-right: 3.8rem;
   height: 100%;
   display: flex;
@@ -521,7 +526,7 @@ body {
   flex-shrink: 0;
 }
 
-.lado-indicador-2-SXQ {
+.lado-indicador-2 {
   margin-right: 2.425rem;
   width: 0.9rem;
   height: 8.4rem;
@@ -530,7 +535,7 @@ body {
   flex-shrink: 0;
 }
 
-.contract-mJn {
+.icone-despachadas {
   margin-top: 0.2603rem;
   width: 4.2187rem;
   height: 4.427rem;
@@ -548,7 +553,7 @@ body {
   flex-shrink: 0;
 }
 
-.linha-indicador-2-ECN {
+.linha-indicador-2 {
   margin: 0.05rem 1.35rem 0rem 0rem;
   width: 0.3rem;
   height: 3.1rem;
@@ -564,7 +569,7 @@ body {
   flex-shrink: 0;
 }
 
-.titulo-indicador-2-XBU {
+.titulo-indicador-2 {
   margin-bottom: 0.25rem;
   display: flex;
   align-items: center;
@@ -578,7 +583,7 @@ body {
   flex-shrink: 0;
 }
 
-.nmero-indicador-2-qxr {
+.numero-indicador-2 {
   margin-right: 0.1rem;
   display: flex;
   align-items: center;
@@ -592,7 +597,7 @@ body {
   flex-shrink: 0;
 }
 
-.indicador-3-vjQ {
+.indicador-3 {
   margin-right: 3.9rem;
   height: 100%;
   display: flex;
@@ -603,7 +608,7 @@ body {
   flex-shrink: 0;
 }
 
-.lado-indicador-3-5cJ {
+.lado-indicador-3 {
   margin-right: 1.6rem;
   width: 0.9rem;
   height: 8.4rem;
@@ -612,7 +617,7 @@ body {
   flex-shrink: 0;
 }
 
-.smbolo-indicador-3-Mpi {
+.simbolo-indicador-3 {
   margin-top: 0.1rem;
   width: 5.5rem;
   height: 5.3rem;
@@ -630,7 +635,7 @@ body {
   flex-shrink: 0;
 }
 
-.linha-indicador-3-pyC {
+.linha-indicador-3 {
   margin: 0.05rem 1.65rem 0rem 0rem;
   width: 0.3rem;
   height: 3.1rem;
@@ -646,7 +651,7 @@ body {
   flex-shrink: 0;
 }
 
-.titulo-indicador-3-X6v {
+.titulo-indicador-3 {
   margin-bottom: 0.25rem;
   display: flex;
   align-items: center;
@@ -660,7 +665,7 @@ body {
   flex-shrink: 0;
 }
 
-.nmero-indicador-3-3LA {
+.numero-indicador-3 {
   margin-left: 0.1rem;
   display: flex;
   align-items: center;
@@ -674,7 +679,7 @@ body {
   flex-shrink: 0;
 }
 
-.indicador-4-WzS {
+.indicador-4 {
   height: 100%;
   display: flex;
   align-items: center;
@@ -684,7 +689,7 @@ body {
   flex-shrink: 0;
 }
 
-.lado-indicador-4-Gyc {
+.lado-indicador-4 {
   margin-right: 1.9167rem;
   width: 0.9rem;
   height: 8.4rem;
@@ -693,7 +698,7 @@ body {
   flex-shrink: 0;
 }
 
-.cancel-c1t {
+.icone-canceladas {
   width: 4.1667rem;
   height: 4.1667rem;
   object-fit: contain;
@@ -710,7 +715,7 @@ body {
   flex-shrink: 0;
 }
 
-.linha-indicador-4-gGe {
+.linha-indicador-4 {
   margin: 0.05rem 2.1rem 0rem 0rem;
   width: 0.3rem;
   height: 3.1rem;
@@ -726,7 +731,7 @@ body {
   flex-shrink: 0;
 }
 
-.titulo-indicador-4-m3C {
+.titulo-indicador-4 {
   margin-bottom: 0.25rem;
   display: flex;
   align-items: center;
@@ -740,7 +745,7 @@ body {
   flex-shrink: 0;
 }
 
-.nmero-indicador-4-t7p {
+.numero-indicador-4 {
   margin-left: 0.1rem;
   display: flex;
   align-items: center;
@@ -754,7 +759,7 @@ body {
   flex-shrink: 0;
 }
 
-.barra-de-titulo-N2z {
+.barra-de-titulo {
   box-sizing: border-box;
   padding: 0.856rem 1.744rem 0.744rem 0rem;
   width: 103.8rem;
@@ -767,7 +772,7 @@ body {
   background-color: #ffffff;
 }
 
-.titulo-TKL {
+.titulo {
   margin: 0rem 72.1rem 0.113rem 0rem;
   display: flex;
   font-size: 1.6rem;
@@ -779,7 +784,7 @@ body {
   flex-shrink: 0;
 }
 
-.semestre-filtrado-y2n {
+.semestre-filtrado {
   margin: 0rem 0.956rem 0.113rem 0rem;
   text-align: right;
   display: flex;
@@ -792,7 +797,7 @@ body {
   flex-shrink: 0;
 }
 
-.cone-UVL {
+.icone-pagina {
   width: 2.3rem;
   height: 2.3rem;
   position: relative;
@@ -801,7 +806,7 @@ body {
   flex-shrink: 0;
 }
 
-.menu-principal-CgE {
+.menu-principal {
   width: 11.3rem;
   height: 64.2rem;
   position: absolute;
@@ -809,7 +814,7 @@ body {
   top: 5rem;
 }
 
-.cones-8Zt {
+.icones {
   width: 11.3rem;
   height: 64.2rem;
   position: absolute;
@@ -819,7 +824,7 @@ body {
   vertical-align: top;
 }
 
-.opes-5k2 {
+.opcoes {
   width: 7.9rem;
   height: 31.8rem;
   position: absolute;
@@ -827,7 +832,7 @@ body {
   top: 10.65rem;
 }
 
-.opo-1-selecionada-cEA {
+.opcao-1-selecionada {
   margin-bottom: 3.3rem;
   display: flex;
   font-size: 1.4rem;
@@ -838,7 +843,7 @@ body {
   white-space: nowrap;
 }
 
-.opo-2-Xc2 {
+.opcao-2 {
   margin-bottom: 3.4rem;
   display: flex;
   font-size: 1.4rem;
@@ -849,7 +854,7 @@ body {
   white-space: nowrap;
 }
 
-.opo-3-4bx {
+.opcao-3 {
   margin-bottom: 3.3rem;
   display: flex;
   font-size: 1.4rem;
@@ -860,7 +865,7 @@ body {
   white-space: nowrap;
 }
 
-.opo-4-brn {
+.opcao-4 {
   margin-bottom: 3.1rem;
   display: flex;
   font-size: 1.4rem;
@@ -871,7 +876,7 @@ body {
   white-space: nowrap;
 }
 
-.opo-5-wfk {
+.opcao-5 {
   margin-bottom: 3.3rem;
   display: flex;
   font-size: 1.4rem;
@@ -882,7 +887,7 @@ body {
   white-space: nowrap;
 }
 
-.opo-6-Hjc {
+.opcao-6 {
   margin-bottom: 3.5rem;
   display: flex;
   font-size: 1.4rem;
@@ -893,7 +898,7 @@ body {
   white-space: nowrap;
 }
 
-.opo-7-ScW {
+.opcao-7 {
   display: flex;
   font-size: 1.4rem;
   font-weight: 700;
