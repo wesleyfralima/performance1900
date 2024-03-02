@@ -1,3 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 1.389vh;
+  background-color: #afc3c9;
+}
+
+a {
+  text-decoration: none;
+}
+
 .btn-link:hover {
   background-color: lightyellow;
 }
@@ -18,19 +32,6 @@
 
 .shadows {
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-}
-
-html {
-	font-size: 50%;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 .fundos {
@@ -67,8 +68,8 @@ a {
 }
 
 .titulo-painel {
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 1rem;
+  margin-left: 1rem;
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.15;
@@ -95,7 +96,6 @@ a {
 
 .grafico {
   width: 11.6rem;
-  height: 100%;
   align-items: center;
   display: flex;
   flex-direction: column;
