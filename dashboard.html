@@ -8,15 +8,18 @@
   <title>Dashboard | Painel da Performance</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo%3A400%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700"/>
-  <link rel="stylesheet" href="./styles/tudo.css"/>
-  <script src="./logic/logic.js"></script>
+  <link rel="stylesheet" href="./assets/styles.css"/>
+  <script src="./assets/logic.js"></script>
 </head>
 <body>
-  <img class="fundos" src="./assets/Fundos.png"/>
+  <!-- Imagem com os fundos (pode ser substituída por styles depois )-->
+  <img class="fundos" src="./assets/images/Fundos.png"/>
+  <!-- Os 4 paineis (conteúdo principal) -->
   <div class="paineis">
 
+    <!-- O primeiro grupo de paineis, que são os paineis de cima -->
     <div class="painel-grupo">
-      
+      <!-- O Painel 1, que é o painel da Capacidade Operacional -->
       <div class="painel shadows">
         <div class="textos titulo-painel">Capacidade Operacional</div>
         <div class="graficos">
@@ -41,14 +44,17 @@
         </div>
       </div>
 
+      <!-- O Painel 2 -->
       <div class="painel shadows">
         <div class="textos titulo-painel">Painel 2</div>
       </div>
 
     </div>
 
+    <!-- O segundo grupo de paineis, que são os paineis de baixo -->
     <div class="painel-grupo">
 
+      <!-- O Painel 3, que é o painel de avisos e informações -->
       <div class="painel shadows">
         
         <div class="textos titulo-painel">Avisos</div>
@@ -72,6 +78,7 @@
 
       </div>
 
+      <!-- O Painel 4 -->
       <div class="painel shadows">
         <div class="textos titulo-painel">Painel 4</div>
       </div>
@@ -80,12 +87,14 @@
 
   </div>
   
+  <!-- O grupo dos 4 indicadores -->
   <div class="indicadores">
     
+    <!-- O primeiro indicador, que atualmente é o indicador das Respostas das Diligências -->
     <a class="btn-link indicador indicador-right shadows" href="">
       <div class="lado-indicador">
       </div>
-      <img class="icone-indicador" src="./assets/Icon - Notidication.png"/>
+      <img class="icone-indicador" src="./assets/images/Icon - Notidication.png"/>
       <div class="auto-group-2">
         <div class="linha-indicador">
         </div>
@@ -96,10 +105,11 @@
       </div>
     </a>
 
+    <!-- O segundo indicador, que é o indicador das propostas despachadas -->
     <a class="btn-link indicador indicador-right shadows" href="">
       <div class="lado-indicador">
       </div>
-      <img class="icone-indicador" src="./assets/Icon - Despachadas.png"/>
+      <img class="icone-indicador" src="./assets/images/Icon - Despachadas.png"/>
       <div class="auto-group-2">
         <div class="linha-indicador">
         </div>
@@ -110,10 +120,11 @@
       </div>
     </a>
 
+    <!-- O terceiro indicador, que é o indicador das propostas Aguardando análise -->
     <a class="btn-link indicador indicador-right shadows" href="">
       <div class="lado-indicador">
       </div>
-      <img class="simbolo-indicador-3" src="./assets/Icon - Indicator 1.png"/>
+      <img class="simbolo-indicador-3" src="./assets/images/Icon - Indicator 1.png"/>
       <div class="auto-group-2">
         <div class="linha-indicador">
         </div>
@@ -124,10 +135,11 @@
       </div>
     </a>
 
+    <!-- O quarto indicador, que é o indicador das propostas canceladas -->
     <a class="btn-link indicador shadows" href="">
       <div class="lado-indicador">
       </div>
-      <img class="icone-indicador" src="./assets/Icon - Canceled.png"/>
+      <img class="icone-indicador" src="./assets/images/Icon - Canceled.png"/>
       <div class="auto-group-2">
         <div class="linha-indicador">
         </div>
@@ -139,10 +151,12 @@
     </a>
 
   </div>
+
+  <!-- A Barra de Títulos, onde constam o nome da aplicação e o semestre filtrado -->
   <div class="barra-de-titulo">
     <div class="textos titulo">Painel da Performance</div>
     <div class="semestre-filtrado textos">1° Sem/2024</div>
-    <img class="icone-pagina" src="./assets/Icon - Dashboard Page.png"/>
+    <img class="icone-pagina" src="./assets/images/Icon - Dashboard Page.png"/>
   </div>
 
   <!-- Menu Principal (Lateral) -->
@@ -156,7 +170,7 @@
       <div class="foto foto-funci shadows"></div>
     </a>
 
-    <img class="icones" src="./assets/Icon - Main Menu.png"/>
+    <img class="icones" src="./assets/images/Icon - Main Menu.png"/>
 
     <div class="opcoes textos">
       <a class="text-link-selecionado opcao opcao-selecionada" href="">Dashboard</a>
