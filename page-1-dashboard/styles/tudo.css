@@ -2,9 +2,6 @@
   --color1: #fd0a54;
   --color2: #FEEF01;
   --color3: #6AD500;
-  --clr1: #000000;
-  --clr2: #000000;
-  --clr3: #000000;
 }
   
 * {
@@ -21,8 +18,13 @@ a {
   text-decoration: none;
 }
 
+.btn-link {
+  transition: transform 0.1s ease-out 50ms;
+}
+
 .btn-link:hover {
   background-color: lightyellow;
+  transform: scale(1.1);
 }
 
 .text-link:hover {
@@ -171,6 +173,11 @@ a {
   height: 2.7rem;
 }
 
+.botao-ver-mais:hover {
+  color: #0759ab;
+  background-color: #feef01;
+}
+
 .anuncios {
   margin-left: 2.2rem;
   margin-top: 2.2rem;
@@ -207,11 +214,14 @@ a {
 }
 
 .indicador {
-  margin-right: 3.9rem;
   display: flex;
   align-items: center;
   background-color: #ffffff;
   border-radius: 1rem;
+}
+
+.indicador-right {
+  margin-right: 3.85rem;
 }
 
 .lado-indicador {
@@ -358,4 +368,52 @@ a {
 
 .opcao-selecionada {
   color: #0759ab;
+}
+
+.foto {
+  position: absolute;
+  top: -0.4rem;
+  height: 5.8rem;
+  width: 5.8rem;
+  border-radius: 50%;
+
+  transition: transform 0.2s ease-out 100ms;
+}
+
+.foto:hover {
+  transform: scale(1.15);
+}
+
+.foto-funci {
+  left: 4.0rem;
+  background-color: lightcoral;
+}
+
+.foto-depto {
+  left: 0.0rem;
+  background-color: lightseagreen;
+}
+
+.icone-btn {
+  position: absolute;
+  height: 2.7rem;
+  width: 2.7rem;
+  background-color: rgba(0,0,0,.05);
+  border-radius: 50%;
+  top: 61.3rem;
+
+  transition: transform 0.2s ease-out 100ms;
+  transition: background-color 0.2s ease-out 100ms;
+}
+
+.icone-btn:hover {
+  background-color: rgba(256, 256, 256, 0.25);
+}
+
+.icone-config {
+  left: 5.3rem;
+}
+
+.icone-suporte {
+  left: 8.4rem;
 }
