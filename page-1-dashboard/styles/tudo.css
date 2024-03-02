@@ -1,3 +1,12 @@
+:root {
+  --color1: #fd0a54;
+  --color2: #FEEF01;
+  --color3: #6AD500;
+  --clr1: #000000;
+  --clr2: #000000;
+  --clr3: #000000;
+}
+  
 * {
 	margin: 0;
 	padding: 0;
@@ -120,28 +129,29 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1.15;
+}
+
+.porcentagem2-grafico {
+  position: relative;
+  background: conic-gradient(from 0deg, var(--clr) 0%, var(--clr) 0% var(--i), #0759AB var(--i), #0759AB 100%);
+  border-radius: 50%;
+}
+
+.porcentagem2-grafico::before {
+  content: '';
+  position: absolute;
+  inset: 2rem;
+  background: #0759AB;
+  border-radius: 50%;
+}
+
+.texto-porcentagem {
+  position: relative;
+  text-align: center;
+  font-size: 2.2rem;
   color: #ffffff;
-  background-color: #0759ab;
-  border-radius: 5.8rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  flex-shrink: 0;
-}
-
-.porcentagem-grafico-1 {
-  background-image: url('../assets/grfico-1-atingido.png');
-}
-
-.porcentagem-grafico-2 {
-  background-image: url('../assets/grfico-2-atingido.png');
-}
-
-.porcentagem-grafico-3 {
-  background-image: url('../assets/grfico-3-atingido.png');
+  line-height: 1.15;
+  font-weight: 700;
 }
 
 .botao-ver-mais {

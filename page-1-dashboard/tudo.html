@@ -5,10 +5,11 @@
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <title>TUDO</title>
+  <title>Dashboard | Painel da Performance</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo%3A400%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700"/>
   <link rel="stylesheet" href="./styles/tudo.css"/>
+  <script src="./logic/logic.js"></script>
 </head>
 <body>
   <img class="fundos" src="./assets/Fundos.png"/>
@@ -20,15 +21,21 @@
         <div class="textos titulo-painel">Capacidade Operacional</div>
         <div class="graficos">
           <div class="grafico">
-            <div class="porcentagem-grafico porcentagem-grafico-1 shadows textos">33,7%</div>
+            <div class="porcentagem-grafico porcentagem2-grafico shadows textos" style="--i:33.7%;--clr:#fd0a54;">
+              <div class="texto-porcentagem" id="porcentagem-grafico-1">33,7%</div>
+            </div>
             <div class="textos titulo-grafico">Diária</div>
           </div>
           <div class="grafico">
-            <div class="porcentagem-grafico porcentagem-grafico-2 shadows textos">62,5%</div>
+            <div class="porcentagem-grafico porcentagem2-grafico shadows textos" style="--i:62.5%;--clr:#FEEF01;">
+              <div class="texto-porcentagem" id="porcentagem-grafico-2">62,5%</div>
+            </div>
             <div class="textos titulo-grafico">Mensal</div>
           </div>
           <div class="grafico">
-            <div class="porcentagem-grafico porcentagem-grafico-3 shadows textos">92,5%</div>
+            <div class="porcentagem-grafico porcentagem2-grafico shadows textos" style="--i:90%;--clr:#6AD500;">
+              <div class="texto-porcentagem" id="porcentagem-grafico-3">90,0%</div>
+            </div>
             <div class="textos titulo-grafico">Semestral</div>
           </div>
         </div>
