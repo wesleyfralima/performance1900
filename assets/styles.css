@@ -38,7 +38,6 @@ a {
 
 .textos {
   font-family: Arimo, 'Source Sans Pro';
-  white-space: nowrap;
 }
 
 .shadows {
@@ -73,9 +72,20 @@ a {
   width: 51.3rem;
   height: 100%;
   flex-shrink: 0;
-
   margin-right: 1.4rem;
+}
 
+.painel-grande {
+  box-sizing: border-box;
+  padding: 1.2rem 1.9rem 29.247rem 1.9rem;
+  width: 103.8rem;
+  height: 57.7rem;
+  position: absolute;
+  left: 19.8rem;
+  top: 8.7rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 1.5rem;
 }
 
 .titulo-painel {
