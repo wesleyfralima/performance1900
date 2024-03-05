@@ -12,3 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
     
 
 });
+
+function verProtocolo(target) {
+    protocolo = target.firstChild;
+    alert(protocolo.innerHTML)
+    window.open("https://www.google.com.br/?q=" + protocolo.innerHTML, "_blank");
+}

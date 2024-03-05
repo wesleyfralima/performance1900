@@ -2,6 +2,10 @@ button {
   border: none;
 }
 
+tr td {
+  cursor: pointer;
+}
+
 .filtros {
   margin-top: 2rem;
   box-sizing: border-box;
@@ -57,5 +61,9 @@ button {
 
 .image-example {
   width: 100rem;
+  margin-top: 2rem;
+}
+
+.lista-protocolos {
   margin-top: 2rem;
 }
