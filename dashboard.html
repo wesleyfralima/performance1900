@@ -12,184 +12,191 @@
   <script src="./assets/logic.js"></script>
 </head>
 <body>
-  <!-- Imagem com os fundos (pode ser substituída por styles depois )-->
-  <img class="fundos" src="./assets/images/Fundos - Dashboard.png"/>
-  <!-- Os 4 paineis (conteúdo principal) -->
-  <div class="paineis">
+  <div class="all">
+    <!-- Imagem com os fundos (pode ser substituída por styles depois )-->
+    <img class="fundos" src="./assets/images/Fundos - Dashboard.png"/>
 
-    <!-- O primeiro grupo de paineis, que são os paineis de cima -->
-    <div class="painel-grupo">
-      <!-- O Painel 1, que é o painel da Capacidade Operacional -->
-      <div class="painel shadows">
-        <div class="textos titulo-painel">Capacidade Operacional</div>
-        <div class="graficos">
-          <div class="grafico">
-            <div class="porcentagem-grafico porcentagem2-grafico shadows textos" id="grafico1" style="--i:33.7%;--clr:#fd0a54;">
-              <div class="texto-porcentagem" id="porcentagem-grafico-1">33,7%</div>
+    <!-- Os 4 paineis (conteúdo principal) -->
+    <div class="paineis">
+
+      <!-- O primeiro grupo de paineis, que são os paineis de cima -->
+      <div class="painel-grupo painel-margin-bottom">
+
+        <!-- O Painel 1, que é o painel da Capacidade Operacional -->
+        <div class="painel shadows painel-margin-right">
+
+          <div class="textos titulo-painel">Capacidade Operacional</div>
+
+          <div class="graficos">
+
+            <div class="grafico grafico-margin-left  grafico-margin-right">
+
+              <div class="porcentagem-grafico porcentagem2-grafico shadows textos" id="grafico1" style="--i:33.7%;--clr:#fd0a54;">
+                <div class="texto-porcentagem" id="porcentagem-grafico-1">33,7%</div>
+              </div>
+
+              <div class="textos titulo-grafico">Diária</div>
+
             </div>
-            <div class="textos titulo-grafico">Diária</div>
-          </div>
-          <div class="grafico">
-            <div class="porcentagem-grafico porcentagem2-grafico shadows textos" id="grafico2" style="--i:62.5%;--clr:#FEEF01;">
-              <div class="texto-porcentagem" id="porcentagem-grafico-2">62,5%</div>
+
+            <div class="grafico grafico-margin-right">
+
+              <div class="porcentagem-grafico porcentagem2-grafico shadows textos" id="grafico2" style="--i:62.5%;--clr:#FEEF01;">
+                <div class="texto-porcentagem" id="porcentagem-grafico-2">62,5%</div>
+              </div>
+
+              <div class="textos titulo-grafico">Mensal</div>
+
             </div>
-            <div class="textos titulo-grafico">Mensal</div>
-          </div>
-          <div class="grafico">
-            <div class="porcentagem-grafico porcentagem2-grafico shadows textos" id="grafico3" style="--i:90%;--clr:#6AD500;">
-              <div class="texto-porcentagem" id="porcentagem-grafico-3">90,0%</div>
+
+            <div class="grafico">
+              
+              <div class="porcentagem-grafico porcentagem2-grafico shadows textos" id="grafico3" style="--i:90%;--clr:#6AD500;">
+                <div class="texto-porcentagem" id="porcentagem-grafico-3">90,0%</div>
+              </div>
+
+              <div class="textos titulo-grafico">Semestral</div>
+
             </div>
-            <div class="textos titulo-grafico">Semestral</div>
           </div>
+          
         </div>
-      </div>
 
-      <!-- O Painel 2 -->
-      <div class="painel shadows">
-        <div class="textos titulo-painel">Painel 2</div>
-      </div>
-
-    </div>
-
-    <!-- O segundo grupo de paineis, que são os paineis de baixo -->
-    <div class="painel-grupo">
-
-      <!-- O Painel 3, que é o painel de avisos e informações -->
-      <div class="painel shadows">
+        <!-- O Painel 2 -->
+        <div class="painel shadows">
+          <div class="textos titulo-painel">Painel 2</div>
+        </div>
         
-        <div class="textos titulo-painel">Avisos</div>
-        <a class="botao-ver-mais text-link textos shadows btn-link-2" href="">Ver mais</a>
-
-        <div class="anuncios textos">
-          <a class="texto-anuncio" href="">Dica de Hoje - 20/02/2024</a>
-          <div class="linha-anuncio">
-          </div>
-          <a class="texto-anuncio" href="">Responda à Pesquisa de Clima</a>
-          <div class="linha-anuncio">
-          </div>
-          <a class="texto-anuncio" href="">Cuidados em propostas despachadas após 20/02/2024</a>
-          <div class="linha-anuncio">
-          </div>
-          <a class="texto-anuncio" href="">Massagens disponíveis novamente</a>
-          <div class="linha-anuncio">
-          </div>
-          <a class="texto-anuncio" href="">Análise de Hipoteca Abrangente - TreinOP 20/02/2024</a>
-        </div>
-
       </div>
 
-      <!-- O Painel 4 -->
-      <div class="painel shadows">
-        <div class="textos titulo-painel">Painel 4</div>
+      <!-- O segundo grupo de paineis, que são os paineis de baixo -->
+      <div class="painel-grupo">
+
+        <!-- O Painel 3, que é o painel de avisos e informações -->
+        <div class="painel shadows painel-margin-right">
+
+          <div class="textos titulo-painel">Avisos</div>
+          <a class="botao-ver-mais textos shadows" href="">Ver mais</a>
+
+          <div class="anuncios textos">
+            <a class="texto-anuncio" href="">Dica de Hoje - 20/02/2024</a>
+            <div class="linha-anuncio"></div>
+            <a class="texto-anuncio" href="">Responda à Pesquisa de Clima</a>
+            <div class="linha-anuncio"></div>
+            <a class="texto-anuncio" href="">Cuidados em propostas despachadas após 20/02/2024</a>
+            <div class="linha-anuncio"></div>
+            <a class="texto-anuncio" href="">Massagens disponíveis novamente</a>
+            <div class="linha-anuncio"></div>
+            <a class="texto-anuncio" href="">Análise de Hipoteca Abrangente - TreinOP 20/02/2024</a>
+            <div class="linha-anuncio"></div>
+          </div>
+
+        </div>
+
+        <!-- O Painel 4 -->
+        <div class="painel shadows">
+          <div class="textos titulo-painel">Painel 4</div>
+        </div>
+
       </div>
 
     </div>
 
-  </div>
-  
-  <!-- O grupo dos 4 indicadores -->
-  <div class="indicadores">
-    
-    <!-- O primeiro indicador, que atualmente é o indicador das Respostas das Diligências -->
-    <a class="btn-link indicador indicador-right shadows" href="./protocolos.html">
-      <div class="lado-indicador">
-      </div>
-      <img class="icone-indicador" src="./assets/images/Icon - Notidication.png"/>
-      <div class="auto-group-2">
-        <div class="linha-indicador">
+    <!-- O grupo dos 4 indicadores -->
+    <div class="indicadores">
+      
+      <!-- O primeiro indicador, que atualmente é o indicador das Respostas das Diligências -->
+      <a class="btn-link indicador indicador-right shadows" href="./protocolos.html">
+        <div class="lado-indicador"></div>
+        <img class="icone-indicador" src="./assets/images/Icon - Notification.png"/>
+        <div class="auto-group-2">
+          <div class="linha-indicador"></div>
+          <div>
+            <div class="textos titulo-indicador">Respostas</div>
+            <div class="numero-indicador textos">1</div>
+          </div>
         </div>
-        <div class="auto-group">
-          <div class="textos titulo-indicador">Respostas</div>
-          <div class="numero-indicador textos">1</div>
+      </a>
+
+      <!-- O segundo indicador, que é o indicador das propostas despachadas -->
+      <a class="btn-link indicador indicador-right shadows" href="./protocolos.html">
+        <div class="lado-indicador"></div>
+        <img class="icone-indicador" src="./assets/images/Icon - Despachadas.png"/>
+        <div class="auto-group-2">
+          <div class="linha-indicador"></div>
+          <div>
+            <div class="textos titulo-indicador">Despachos</div>
+            <div class="numero-indicador textos">2</div>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
 
-    <!-- O segundo indicador, que é o indicador das propostas despachadas -->
-    <a class="btn-link indicador indicador-right shadows" href="./protocolos.html">
-      <div class="lado-indicador">
-      </div>
-      <img class="icone-indicador" src="./assets/images/Icon - Despachadas.png"/>
-      <div class="auto-group-2">
-        <div class="linha-indicador">
+      <!-- O terceiro indicador, que é o indicador das propostas Aguardando análise -->
+      <a class="btn-link indicador indicador-right shadows" href="./protocolos.html">
+        <div class="lado-indicador"></div>
+        <img class="icone-indicador" src="./assets/images/Icon - Indicator 1.png"/>
+        <div class="auto-group-2">
+          <div class="linha-indicador"></div>
+          <div>
+            <div class="textos titulo-indicador">Aguardando</div>
+            <div class="numero-indicador textos">3</div>
+          </div>
         </div>
-        <div class="auto-group">
-          <div class="textos titulo-indicador">Despachadas</div>
-          <div class="numero-indicador textos">2</div>
+      </a>
+
+      <!-- O quarto indicador, que é o indicador das propostas canceladas -->
+      <a class="btn-link indicador shadows" href="./protocolos.html">
+        <div class="lado-indicador"></div>
+        <img class="icone-indicador" src="./assets/images/Icon - Canceled.png"/>
+        <div class="auto-group-2">
+          <div class="linha-indicador"></div>
+          <div>
+            <div class="textos titulo-indicador">Canceladas</div>
+            <div class="numero-indicador textos">4</div>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
 
-    <!-- O terceiro indicador, que é o indicador das propostas Aguardando análise -->
-    <a class="btn-link indicador indicador-right shadows" href="./protocolos.html">
-      <div class="lado-indicador">
-      </div>
-      <img class="simbolo-indicador-3" src="./assets/images/Icon - Indicator 1.png"/>
-      <div class="auto-group-2">
-        <div class="linha-indicador">
-        </div>
-        <div class="auto-group">
-          <div class="textos titulo-indicador">Aguardando</div>
-          <div class="numero-indicador textos">3</div>
-        </div>
-      </div>
-    </a>
-
-    <!-- O quarto indicador, que é o indicador das propostas canceladas -->
-    <a class="btn-link indicador shadows" href="./protocolos.html">
-      <div class="lado-indicador">
-      </div>
-      <img class="icone-indicador" src="./assets/images/Icon - Canceled.png"/>
-      <div class="auto-group-2">
-        <div class="linha-indicador">
-        </div>
-        <div class="auto-group">
-          <div class="textos titulo-indicador">Canceladas</div>
-          <div class="numero-indicador textos">4</div>
-        </div>
-      </div>
-    </a>
-
-  </div>
-
-  <!-- A Barra de Títulos, onde constam o nome da aplicação e o semestre filtrado -->
-  <div class="barra-de-titulo">
-    <div class="textos titulo">Painel da Performance</div>
-    <div class="semestre-filtrado textos">1° Sem/2024</div>
-    <img class="icone-pagina" src="./assets/images/Icon - Dashboard Page.png"/>
-  </div>
-
-  <!-- Menu Principal (Lateral) -->
-  <div class="menu-principal">
-
-    <a href="">
-      <div class="foto foto-depto shadows"></div>
-    </a>
-    
-    <a href="">
-      <div class="foto foto-funci shadows"></div>
-    </a>
-
-    <img class="icones" src="./assets/images/Icon - Main Menu.png"/>
-
-    <div class="opcoes textos">
-      <a class="text-link-selecionado opcao opcao-selecionada" href="">Dashboard</a>
-      <a class="text-link opcao" href="./protocolos.html">Protocolos</a>
-      <a class="text-link opcao" href="">Capacidade</a>
-      <a class="text-link opcao" href="">Painel 2</a>
-      <a class="text-link opcao" href="">Avisos</a>
-      <a class="text-link opcao" href="">Painel 4</a>
-      <a class="text-link opcao" href="">Opções</a>
     </div>
 
-    <a href="">
-      <div class="icone-btn icone-config shadows"></div>
-    </a>
-    
-    <a href="">
-      <div class="icone-btn icone-suporte shadows"></div>
-    </a>
-    
+    <!-- A Barra de Títulos, onde constam o nome da aplicação e o semestre filtrado -->
+    <div class="barra-de-titulo">
+      <div class="textos titulo">Painel da Performance</div>
+      <div class="semestre-filtrado textos">1° Sem/2024</div>
+      <img class="icone-pagina" src="./assets/images/Icon - Dashboard Page.png"/>
+    </div>
+
+    <!-- Menu Principal (Lateral) -->
+    <div class="menu-principal">
+
+      <a href="">
+        <div class="foto foto-depto shadows"></div>
+      </a>
+      
+      <a href="">
+        <div class="foto foto-funci shadows"></div>
+      </a>
+
+      <div class="opcoes textos">
+        <a class="text-link-selecionado opcao opcao-selecionada" href="">Dashboard</a>
+        <a class="text-link opcao" href="./protocolos.html">Protocolos</a>
+        <a class="text-link opcao" href="">Capacidade</a>
+        <a class="text-link opcao" href="">Painel 2</a>
+        <a class="text-link opcao" href="">Avisos</a>
+        <a class="text-link opcao" href="">Painel 4</a>
+        <a class="text-link opcao" href="">Opções</a>
+      </div>
+
+      <a href="">
+        <div class="icone-btn icone-config shadows"></div>
+      </a>
+      
+      <a href="">
+        <div class="icone-btn icone-suporte shadows"></div>
+      </a>
+      
+    </div>
+
   </div>
 
 </body>
