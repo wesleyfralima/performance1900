@@ -15,104 +15,104 @@
     <script src="./assets/logic.js"></script>
 </head>
 <body>
-    <!-- Imagem com os fundos (pode ser substituída por styles depois )-->
-    <img class="fundos" src="./assets/images/Fundos - Protocolos.png"/>
+    <div class="all">
+        <!-- Imagem com os fundos (pode ser substituída por styles depois )-->
+        <img class="fundos" src="./assets/images/Fundos - Protocolos.png"/>
 
-    <!-- A Barra de Títulos, onde constam o nome da aplicação e o semestre filtrado -->
-    <div class="barra-de-titulo">
-        <div class="textos titulo">Painel da Performance</div>
-        <div class="semestre-filtrado textos">1° Sem/2024</div>
-        <img class="icone-pagina" src="./assets/images/Icone - protocolos.png"/>
-    </div>
-
-    <!-- O painel principal -->
-    <div class="painel-grande">
-
-        <div class="titulo-painel textos">Protocolos</div>
-
-        <div class="filtros">
-            <button class="filtro texto-filtro" href="" onclick="alert('teste'); return false;">Todos</button>
-            <button class="filtro-selecionado texto-filtro" href="" onclick="alert('teste'); return false;">No estoque</button>
-            <button class="filtro-selecionado texto-filtro" href="" onclick="alert('teste'); return false;">Com respostas</button>
-            <button class="filtro texto-filtro" href="" onclick="alert('teste'); return false;">Aguardando análise</button>
-            <button class="filtro texto-filtro" href="" onclick="alert('teste'); return false;">Canceladas</button>
-            <button class="filtro texto-filtro" href="" onclick="alert('teste'); return false;">Em diligência</button>
-            <button class="filtro texto-filtro" href="" onclick="alert('teste'); return false;">Seguro N</button>
-            <button class="filtro texto-filtro" href="" onclick="alert('teste'); return false;">Não formalizadas</button>
-            <button class="filtro texto-filtro" href="" onclick="alert('teste'); return false;">Fales</button>
-            <button class="filtro texto-filtro" href="" onclick="alert('teste'); return false;">Despachadas</button>
+        <!-- A Barra de Títulos, onde constam o nome da aplicação e o semestre filtrado -->
+        <div class="barra-de-titulo">
+            <div class="textos titulo">Painel da Performance</div>
+            <div class="semestre-filtrado textos">1° Sem/2024</div>
+            <img class="icone-pagina" src="./assets/images/Icone - protocolos.png"/>
         </div>
 
-        <div class="lista-protocolos">
-            <table class="table table-hover">
-                <thead class="table-light">
-                    <tr>
-                        <th>Protocolo</th>
-                        <th>Proposta</th>
-                        <th>Entrada</th>
-                        <th>Etapa</th>
-                        <th>Valor</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>123456789</td>
-                        <td>122025484</td>
-                        <td>25/02/2024</td>
-                        <td>Em diligência</td>
-                        <td>R$120.000,00</td>
-                    </tr>
-                    <tr>
-                        <td>123456789</td>
-                        <td>122025484</td>
-                        <td>25/02/2024</td>
-                        <td>Em diligência</td>
-                        <td>R$120.000,00</td>
-                    </tr>
-                    <tr>
-                        <td>123456789</td>
-                        <td>122025484</td>
-                        <td>25/02/2024</td>
-                        <td>Em diligência</td>
-                        <td>R$120.000,00</td>
-                    </tr>
-                </tbody>
-            </table>
+        <!-- O painel principal -->
+        <div class="painel-grande shadows">
+
+            <div class="titulo-painel textos">Protocolos</div>
+
+            <div class="filtros">
+                <button class="filtro filtro-right texto-filtro shadows" href="" onclick="alert('teste'); return false;">Todos</button>
+                <button class="filtro filtro-right filtro-selecionado texto-filtro shadows" href="" onclick="alert('teste'); return false;">No estoque</button>
+                <button class="filtro filtro-right filtro-selecionado texto-filtro shadows" href="" onclick="alert('teste'); return false;">Com respostas</button>
+                <button class="filtro filtro-right texto-filtro shadows" href="" onclick="alert('teste'); return false;">Aguardando análise</button>
+                <button class="filtro filtro-right texto-filtro shadows" href="" onclick="alert('teste'); return false;">Canceladas</button>
+                <button class="filtro filtro-right texto-filtro shadows" href="" onclick="alert('teste'); return false;">Em diligência</button>
+                <button class="filtro filtro-right texto-filtro shadows" href="" onclick="alert('teste'); return false;">Seguro N</button>
+                <button class="filtro filtro-right texto-filtro shadows" href="" onclick="alert('teste'); return false;">Não formalizadas</button>
+                <button class="filtro filtro-right texto-filtro shadows" href="" onclick="alert('teste'); return false;">Fales</button>
+                <button class="filtro texto-filtro shadows" href="" onclick="alert('teste'); return false;">Despachadas</button>
+            </div>
+
+            <div class="lista-protocolos">
+                <table class="table table-hover">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Protocolo</th>
+                            <th>Proposta</th>
+                            <th>Entrada</th>
+                            <th>Etapa</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>123456789</td>
+                            <td>122025484</td>
+                            <td>25/02/2024</td>
+                            <td>Em diligência</td>
+                            <td>R$120.000,00</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>122025484</td>
+                            <td>25/02/2024</td>
+                            <td>Em diligência</td>
+                            <td>R$120.000,00</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>122025484</td>
+                            <td>25/02/2024</td>
+                            <td>Em diligência</td>
+                            <td>R$120.000,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
         </div>
 
-    </div>
+        <!-- Menu Principal (Lateral) -->
+        <div class="menu-principal">
 
-    <!-- Menu Principal (Lateral) -->
-    <div class="menu-principal">
+            <a href="">
+                <div class="foto foto-depto shadows"></div>
+            </a>
+            
+            <a href="">
+                <div class="foto foto-funci shadows"></div>
+            </a>
 
-        <a href="">
-            <div class="foto foto-depto shadows"></div>
-        </a>
-        
-        <a href="">
-            <div class="foto foto-funci shadows"></div>
-        </a>
+            <div class="opcoes textos">
+                <a class="text-link opcao" href="./dashboard.html">Dashboard</a>
+                <a class="text-link-selecionado opcao opcao-selecionada" href="">Protocolos</a>
+                <a class="text-link opcao" href="">Capacidade</a>
+                <a class="text-link opcao" href="">Painel 2</a>
+                <a class="text-link opcao" href="">Avisos</a>
+                <a class="text-link opcao" href="">Painel 4</a>
+                <a class="text-link opcao" href="">Opções</a>
+            </div>
 
-        <img class="icones" src="./assets/images/Icon - Main Menu.png"/>
-
-        <div class="opcoes textos">
-            <a class="text-link opcao" href="./dashboard.html">Dashboard</a>
-            <a class="text-link-selecionado opcao opcao-selecionada" href="">Protocolos</a>
-            <a class="text-link opcao" href="">Capacidade</a>
-            <a class="text-link opcao" href="">Painel 2</a>
-            <a class="text-link opcao" href="">Avisos</a>
-            <a class="text-link opcao" href="">Painel 4</a>
-            <a class="text-link opcao" href="">Opções</a>
+            <a href="">
+                <div class="icone-btn icone-config shadows"></div>
+            </a>
+            
+            <a href="">
+                <div class="icone-btn icone-suporte shadows"></div>
+            </a>
+            
         </div>
-
-        <a href="">
-            <div class="icone-btn icone-config shadows"></div>
-        </a>
-        
-        <a href="">
-            <div class="icone-btn icone-suporte shadows"></div>
-        </a>
-        
     </div>
 
 </body>
