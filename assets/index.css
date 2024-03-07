@@ -1,0 +1,151 @@
+.all {
+height: 95vh;
+width: 95;
+font-size: 0.9vw;
+}
+
+.fundos {
+height: 100%;
+width: 100%;
+position: absolute;
+left: 0%;
+top: 0%;
+}
+
+.shadows {
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.textos {
+  font-family: Arimo, 'Source Sans Pro';
+}
+
+.titulo-painel {
+  margin-top: 1%;
+  margin-left: 2%;
+  font-size: 150%;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+}
+
+.barra-de-titulo {
+  width: 82.4%;
+  height: 3%;
+  position: absolute;
+  left: 15%;
+  top: 5%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.titulo {
+  margin: 0 64% 0 1%;
+  display: flex;
+  font-size: 170%;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+}
+
+.semestre-filtrado {
+  margin: 0 1% 0 0;
+  text-align: right;
+  display: flex;
+  font-size: 170%;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+}
+
+.menu-principal {
+  height: 90%;
+  width: 11%;
+  position: absolute;
+  left: 5%;
+  top: 6%;
+}
+
+.foto {
+  position: absolute;
+  height: 9%;
+  width: 35%;
+  border-radius: 50%;
+
+  transition: transform 0.2s ease-out 100ms;
+}
+
+.foto:hover {
+  transform: scale(1.15);
+}
+
+.foto-funci {
+  left: 23%;
+  background-color: lightcoral;
+}
+
+.foto-depto {
+  left: -2%;
+  background-color: lightseagreen;
+}
+
+.icone-btn {
+  position: absolute;
+  height: 4.5%;
+  width: 18%;
+  background-color: rgba(0,0,0,.05);
+  border-radius: 50%;
+  top: 95.4%;
+
+  transition: transform 0.2s ease-out 100ms;
+  transition: background-color 0.2s ease-out 100ms;
+}
+
+.icone-btn:hover {
+  background-color: rgba(256, 256, 256, 0.25);
+}
+
+.icone-config {
+  left: 32.3%;
+}
+
+.icone-suporte {
+  left: 51.35%;
+}
+
+.opcoes {
+  position: absolute;
+  left: 10%;
+  top: 17.5%;
+}
+
+.text-link {
+  text-decoration: none;
+}
+
+.text-link:hover {
+  color: lightcoral;
+  font-weight: bolder;
+}
+
+.opcao {
+  font-size: 120%;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #d8ebf1;
+  display: flex;
+  margin-bottom: 34%;
+}
+
+.opcao-selecionada {
+  color: #0759ab;
+}
+
+.text-link-selecionado {
+  text-decoration: none;
+}
+
+.icone-pagina {
+  width: 2%;
+}
