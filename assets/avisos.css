@@ -1,0 +1,24 @@
+.pesquisar {
+    margin-left: 20%;
+    text-align: right;
+    display: flex;
+    font-size: 140%;
+    font-weight: 700;
+    line-height: 1.15;
+    color: #0759ab;
+}
+
+.caixa-de-pesquisa {
+    margin-left: 10%;
+    padding: 0 1%;
+    width: 35%;
+    height: 100%;
+    font-weight: 700;
+    line-height: 1.15;
+    color: #0759ab;
+    background-color: #d8ebf1;
+    border-radius: 25px;
+    font-size: 140%;
+
+    border: none;
+}

@@ -2,32 +2,6 @@ button {
   border: none;
 }
 
-.painel-grande {
-  width: 82.4%;
-  height: 83.5%;
-  position: absolute;
-  left: 15%;
-  top: 10%;
-
-  margin: auto;
-
-  background-color: #ffffff;
-  border-radius: 25px;
-}
-
-.filtros {
-  margin-top: 2%;
-  margin-left: 3.5%;
-  padding: 0.7% 1.4% 0.7% 1.4%;
-  width: 93%;
-  height: 8%;
-  display: flex;
-  align-items: center;
-  background-color: #b0c4ca;
-  border-radius: 25px;
-
-  border: #006ed5 1px solid;
-}
 .filtro {
   width: 10%;
   height: 100%;
@@ -61,10 +35,4 @@ button {
   line-height: 1.15;
   white-space: normal;
   justify-content: center;
-}
-
-.lista-protocolos {
-  margin-top: 2%;
-  margin-left: 2.5%;
-  width: 95%;
 }
