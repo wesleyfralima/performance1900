@@ -1,0 +1,27 @@
+.canv {
+  background-color: aliceblue;
+  border: solid 2px lightblue; 
+}
+
+.charts {
+  height: 90%;
+  width: 96%;
+  top: 2%;
+  left: 2%;
+
+  position: absolute; 
+}
+
+.chart1 {
+  height: 44%;
+  width: 49%;
+  position: absolute; 
+}
+
+.chart2 {
+  height: 44%;
+  top: 0%;
+  left: 51%;
+  width: 49%;
+  position: absolute; 
+}
